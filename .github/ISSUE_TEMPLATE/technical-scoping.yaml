@@ -97,3 +97,11 @@ body:
       description: Outline the individual tasks necessary for delivery or link to a GitHub Project.
     validations:
       required: false
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist
+      description: "A list of reminders in order of move this document to 'Ready' state"
+      placholder: "- [ ] Request review from at least one engineer\n- [ ] Check assumption A\n- [ ] Check assumption A\n- [ ] Ask designer about xyz"
+    validations:
+      required: false
