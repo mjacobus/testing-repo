@@ -63,6 +63,7 @@ body:
     attributes:
       label: Assumptions
       description: List any assumptions you are making in order to complete technical scoping.
+      placeholder: I.E. We will not support typeahead autocomplete in the search field.
     validations:
       required: false
   - type: textarea
@@ -70,6 +71,7 @@ body:
     attributes:
       label: Questions for Product
       description: Summarize any outstanding questions necessary to answer in order to shape or finalize technical scoping.
+      placeholder: "I.E. Can the user multi-select in the list view?"
     validations:
       required: false
   - type: textarea
@@ -77,6 +79,7 @@ body:
     attributes:
       label: New Technologies
       description: Outline any new technologies required to deliver a finished product and why they are necessary.
+      placeholder: "I.E. AWS OpenSearch cluster. This will enable a faster search results experience and keep load off of our database."
     validations:
       required: false
   - type: textarea
@@ -84,6 +87,7 @@ body:
     attributes:
       label: Other Risks
       description: List other risks you foresee in this project and suggest possible solutions.
+      placeholder: "I.E. Delivering this product will require a strong emphasis on front-end experience, but our current team is stronger on the back-end. If we cannot borrow resources, could we allot additional time to the front-end components so we can get them right?\nI.E. This project touches our authentication system. This is a sensitive area of the codebase.\n     - Proposed solution: pair with **Engineer** to review plan of action; add reviewers to pull request."
     validations:
       required: false
   - type: textarea
