@@ -1,0 +1,95 @@
+name: Technical Scoping Document
+description: Create a document to outline the technical aspects of a new project.
+labels: ["technical scoping", "needs review"]
+body:
+  - type: input
+    id: project_title
+    attributes:
+      label: Project Title
+      description: Enter the title of the project.
+    validations:
+      required: true
+  - type: input
+    id: product_manager
+    attributes:
+      label: Product Manager
+      description: Who is the Product Manager for this project?
+    validations:
+      required: true
+  - type: input
+    id: tech_lead_author
+    attributes:
+      label: Tech Lead / Author
+      description: Who is the Tech Lead or Author for this project?
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Reviewer
+      description: Who will review this technical scoping document?
+    validations:
+      required: true
+  - type: input
+    id: engineers_or_squad
+    attributes:
+      label: Engineers or Squad
+      description: Who are the engineers or squads involved in this project?
+    validations:
+      required: true
+  - type: input
+    id: product_requirements_link
+    attributes:
+      label: Link to Product Requirements
+      description: Provide a link to the product requirements document.
+    validations:
+      required: true
+  - type: input
+    id: ux_designs_link
+    attributes:
+      label: (Optional) Link to supporting UX designs
+      description: Provide a link to any supporting UX design documents (optional).
+    validations:
+      required: false
+  - type: textarea
+    id: product_description
+    attributes:
+      label: Product Description
+      description: Briefly describe what we’re building.
+    validations:
+      required: true
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions
+      description: List any assumptions you are making in order to complete technical scoping.
+    validations:
+      required: true
+  - type: textarea
+    id: questions_for_product
+    attributes:
+      label: Questions for Product
+      description: Summarize any outstanding questions necessary to answer in order to shape or finalize technical scoping.
+    validations:
+      required: true
+  - type: textarea
+    id: new_technologies
+    attributes:
+      label: New Technologies
+      description: Outline any new technologies required to deliver a finished product and why they are necessary.
+    validations:
+      required: true
+  - type: textarea
+    id: other_risks
+    attributes:
+      label: Other Risks
+      description: List other risks you foresee in this project and suggest possible solutions.
+    validations:
+      required: true
+  - type: textarea
+    id: scope_of_work
+    attributes:
+      label: Scope of Work
+      description: Outline the individual tasks necessary for delivery or link to a GitHub Project.
+    validations:
+      required: true
